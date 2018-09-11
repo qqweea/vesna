@@ -67,7 +67,7 @@
 <ul>
 	<li>Дневной, Вечерний макияж - 650грн.</li>
 	<li>Свадебный макияж - 700грн.</li>
-  <li>Nood Look (макияж без макияжа) - 500 грн.</li>
+  <li>Nude Look (макияж без макияжа) - 500 грн.</li>
   <li>Экспресс макияж - 500 грн.</li>
 	<li>Пробный макияж – 400 грн.</li>
 	<li>Мужской макияж для фотосьемки – 250 грн.</li>
@@ -107,7 +107,7 @@
   <p
     >При выезде по Киеву, дополнительно оплачивается такси в одну сторону.
     <br>
-    При выезде за пределы Киева, применяется двойной тарфи и такси в обе стороны.
+    При выезде за пределы Киева, применяется двойной тариф и такси в обе стороны.
   </p>
 </div>
 <div class="brand-logo-container">
@@ -127,9 +127,9 @@
   require_once "Mobile_Detect.php";
   $detect = new Mobile_Detect;
   if ( $detect->isMobile() ) {
-    $devide = 4;
+    $divide = 4;
   }
-  $devide = 8;
+  $divide = 8;
   // Image extensions
   $image_extensions = array("png","jpg","jpeg","gif");
 
@@ -167,7 +167,7 @@
        <?php
 
        // Break
-       if( $count%$devide == 0){
+       if( $count%$divide == 0){
        ?>
          <div class="clear"></div>
        <?php 
